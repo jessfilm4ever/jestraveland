@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jes Travel</title>
+<meta charset="UTF-8">
+<title>NFC Video</title>
 
-    <link rel="stylesheet" href="style.css">
+<style>
+body {
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+video {
+    width:90%;
+    max-width:800px;
+}
+</style>
+
 </head>
 
 <body>
 
-    <video id="player" controls playsinline></video>
-
-    <script src="script.js"></script>
+<video controls autoplay>
+    <source src="test.mp4" type="video/mp4">
+</video>
 
 </body>
+
 </html>
